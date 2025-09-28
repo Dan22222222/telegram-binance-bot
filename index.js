@@ -7,6 +7,7 @@ const { initForumWatcher } = require('./forumWatcher');
 const {
   TELEGRAM_BOT_TOKEN,
   TELEGRAM_ALLOWED_CHAT_ID,
+  TELEGRAM_FORUM_CHAT_ID_PROD,
   BINANCE_API_KEY,
   BINANCE_API_SECRET,
   TESTNET
@@ -36,10 +37,44 @@ if (TELEGRAM_ALLOWED_CHAT_ID && TELEGRAM_ALLOWED_CHAT_ID.trim() !== '') {
   }
 }
 
+// Forum chat id (for logging all forum messages)
+let forumChatId = null;
+if (TELEGRAM_FORUM_CHAT_ID_PROD && TELEGRAM_FORUM_CHAT_ID_PROD.trim() !== '') {
+  const parsedForum = Number(TELEGRAM_FORUM_CHAT_ID_PROD);
+  if (!Number.isNaN(parsedForum)) {
+    forumChatId = parsedForum;
+  }
+}
+
 // Middleware to restrict bot usage by chat id if set
 bot.use((ctx, next) => {
-  if (!allowedChatId) return next();
   const chatId = ctx.chat?.id;
+
+  // If this is a message from the forum chat, log it and always allow
+  if (forumChatId && chatId === forumChatId) {
+    try {
+      const upd = ctx.update || {};
+      const msg = upd.message || upd.edited_message || upd.channel_post || upd.edited_channel_post;
+      const text = msg?.text || msg?.caption;
+      const threadId = msg?.message_thread_id;
+      const from = (msg?.from?.username && `@${msg.from.username}`)
+        || msg?.from?.first_name
+        || msg?.author_signature
+        || msg?.sender_chat?.title
+        || 'unknown';
+      const type = upd.edited_message ? 'edited_message'
+        : upd.edited_channel_post ? 'edited_channel_post'
+        : upd.channel_post ? 'channel_post'
+        : 'message';
+      console.log(`[Forum ${chatId}] [thread:${threadId ?? '-'}] [${type}] ${from}: ${text || '[non-text message]'}`);
+    } catch (e) {
+      console.error('Forum log middleware error:', e?.message || e);
+    }
+    return next();
+  }
+
+  // For non-forum chats: optionally restrict access
+  if (!allowedChatId) return next();
   if (chatId === allowedChatId) return next();
   try {
     return ctx.reply('⛔️ Доступ к боту ограничен.');
