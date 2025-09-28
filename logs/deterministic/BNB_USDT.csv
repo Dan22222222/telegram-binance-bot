@@ -1,0 +1,13 @@
+ts,timeframe,event,side,entry,stop,tp,confidence,reason,notes,proposalId
+2025-09-18T21:03:28.834Z,1m,propose_none,,,,,,price=988.1200;atr=0.2364;adx=22.24,noCleanSetup,
+2025-09-18T21:03:38.446Z,3m,propose_none,,,,,,price=988.0100;atr=0.5558;adx=19.92,noCleanSetup,
+2025-09-18T21:03:47.507Z,5m,propose_none,,,,,,price=988.0200;atr=0.8365;adx=28.67,noCleanSetup,
+2025-09-18T21:03:56.493Z,15m,propose_none,,,,,,price=988.0200;atr=1.9826;adx=32.53,noCleanSetup,
+2025-09-18T21:04:05.770Z,30m,propose_none,,,,,,price=988.0100;atr=3.5481;adx=27.87,noCleanSetup,
+2025-09-21T19:10:58.530Z,1m,propose_none,,,,,,price=1048.7300;atr=0.5758;adx=31.25,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:11:06.430Z,3m,propose_none,,,,,,price=1048.4300;atr=1.3137;adx=18.85,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:11:14.381Z,5m,propose_none,,,,,,price=1048.3600;atr=1.9549;adx=19.68,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:11:21.829Z,15m,propose_none,,,,,,price=1048.4400;atr=4.0996;adx=16.89,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:11:29.329Z,30m,propose_none,,,,,,price=1048.2000;atr=6.6481;adx=23.13,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:11:36.789Z,1h,propose_none,,,,,,price=1048.2600;atr=10.0379;adx=29.69,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:11:46.165Z,4h,propose_none,,,,,,price=1048.2600;atr=17.9124;adx=52.69,noCleanSetup | tpCount=0;trailing=0,

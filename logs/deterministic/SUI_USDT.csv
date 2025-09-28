@@ -1,0 +1,8 @@
+ts,timeframe,event,side,entry,stop,tp,confidence,reason,notes,proposalId
+2025-09-21T19:12:58.074Z,1m,propose_none,,,,,,price=3.6173;atr=0.0033;adx=32.77,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:13:05.505Z,3m,propose_none,,,,,,price=3.6185;atr=0.0060;adx=32.60,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:13:13.083Z,5m,propose_none,,,,,,price=3.6185;atr=0.0082;adx=22.96,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:13:21.072Z,15m,propose_none,,,,,,price=3.6168;atr=0.0163;adx=14.32,lowADX | tpCount=0;trailing=0,
+2025-09-21T19:13:28.560Z,30m,propose_none,,,,,,price=3.6174;atr=0.0218;adx=20.02,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:13:36.030Z,1h,propose_none,,,,,,price=3.6169;atr=0.0285;adx=32.90,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:13:45.480Z,4h,propose_none,,,,,,price=3.6167;atr=0.0670;adx=21.66,noCleanSetup | tpCount=0;trailing=0,

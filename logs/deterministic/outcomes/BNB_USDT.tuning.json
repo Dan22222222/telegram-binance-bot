@@ -1,0 +1,35 @@
+{
+  "suggestions": {
+    "timeframes": {
+      "4h": {
+        "rrMin": 1.9,
+        "atrPctRiskMin": 0.26,
+        "atrPctRiskMax": 0.5,
+        "driftMaxAdj": 0.24,
+        "driftHard": 0.42,
+        "spreadMaxRiskRatio": 0.16,
+        "adxHardRejectBelow": 20
+      }
+    },
+    "__meta": {
+      "tf": "4h",
+      "n": 0,
+      "stops": 0,
+      "tps": 0,
+      "stopRate": 0,
+      "nearRate": 0,
+      "tpRate": 0,
+      "noFollowRate": 0,
+      "avgR": 0,
+      "proposeNoneRate": 0,
+      "proposeNoneN": 0,
+      "proposeNoneTop": "",
+      "proposeNoneSilenceMs": null,
+      "proposeNoneSessionRate": 0,
+      "proposeNoneSessionN": 0,
+      "sessionPhase": "normal",
+      "weekday": "Sun"
+    }
+  },
+  "generatedAt": "2025-09-21T19:11:46.163Z"
+}

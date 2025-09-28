@@ -1,0 +1,21 @@
+ts,timeframe,event,side,entry,stop,tp,confidence,reason,notes,proposalId
+2025-09-18T20:58:38.920Z,1m,propose_none,,,,,,price=248.3800;atr=0.2100;adx=11.44,noCleanSetup,
+2025-09-18T20:58:47.812Z,3m,propose_none,,,,,,price=248.4500;atr=0.4443;adx=13.28,noCleanSetup,
+2025-09-18T20:58:56.860Z,5m,propose_none,,,,,,price=248.4500;atr=0.6230;adx=18.35,noCleanSetup,
+2025-09-18T20:59:05.805Z,15m,propose_none,,,,,,price=248.4400;atr=1.1935;adx=18.63,lowADX,
+2025-09-18T20:59:14.763Z,30m,propose_none,,,,,,price=248.4000;atr=1.6560;adx=37.26,noCleanSetup,
+2025-09-18T20:59:31.559Z,1h,propose_none,,,,,,price=248.4100;atr=2.3835;adx=33.62,noCleanSetup,
+2025-09-18T20:59:49.081Z,4h,propose_none,,,,,,price=248.3900;atr=4.5367;adx=24.69,noCleanSetup,
+2025-09-19T22:33:57.545Z,5m,propose,long,239.5011,239.4829,240.5000,0.65,"LONG: anchor=vwap@239.501053, liqBelow{dAtr:0.00,dens:n/a}, rr=55.17, atrPct=0.05, -trend,trapped:none,session:верх",,mthrcfx
+2025-09-21T16:25:14.261Z,5m,propose,short,239.2205,239.2428,234.9900,0.65,"SHORT: anchor=vwap@239.220513, liqAbove{dAtr:0.00,dens:n/a}, rr=190.10, atrPct=0.05, -trend,trapped:none,session:низ",,w3bw27m
+2025-09-21T16:48:49.167Z,5m,propose_none,,,,,,price=236.3100;atr=0.4806;adx=23.73,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T16:51:20.406Z,5m,propose_none,,,,,,price=236.3500;atr=0.4799;adx=25.25,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:07:59.387Z,1m,propose_none,,,,,,price=237.3000;atr=0.1471;adx=26.89,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:08:06.913Z,3m,propose_none,,,,,,price=237.3500;atr=0.2851;adx=15.00,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:08:14.434Z,5m,propose_none,,,,,,price=237.3700;atr=0.3983;adx=12.90,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:08:21.972Z,15m,propose_none,,,,,,price=237.3300;atr=0.7519;adx=29.30,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:08:29.482Z,30m,propose_none,,,,,,price=237.1500;atr=1.0339;adx=24.10,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:08:36.993Z,1h,propose_none,,,,,,price=237.1700;atr=1.3323;adx=19.99,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:08:46.383Z,4h,propose_none,,,,,,price=237.1400;atr=3.5075;adx=12.68,lowADX | tpCount=0;trailing=0,
+2025-09-21T19:26:24.417Z,1m,propose_none,,,,,,price=237.4900;atr=0.1381;adx=19.15,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:26:31.871Z,3m,propose_none,,,,,,price=237.4800;atr=0.2944;adx=13.24,noCleanSetup | tpCount=0;trailing=0,

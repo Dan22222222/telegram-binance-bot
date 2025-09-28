@@ -1,0 +1,35 @@
+{
+  "suggestions": {
+    "timeframes": {
+      "3m": {
+        "rrMin": 1.35,
+        "atrPctRiskMin": 0.24,
+        "atrPctRiskMax": 0.81,
+        "driftMaxAdj": 0.35,
+        "driftHard": 0.6,
+        "spreadMaxRiskRatio": 0.14500000000000002,
+        "adxHardRejectBelow": 10
+      }
+    },
+    "__meta": {
+      "tf": "3m",
+      "n": 0,
+      "stops": 0,
+      "tps": 0,
+      "stopRate": 0,
+      "nearRate": 0,
+      "tpRate": 0,
+      "noFollowRate": 0,
+      "avgR": 0,
+      "proposeNoneRate": 1,
+      "proposeNoneN": 2,
+      "proposeNoneTop": "price=248.4500;atr=0.4443;adx=13.28",
+      "proposeNoneSilenceMs": 1104955,
+      "proposeNoneSessionRate": 1,
+      "proposeNoneSessionN": 1,
+      "sessionPhase": "normal",
+      "weekday": "Sun"
+    }
+  },
+  "generatedAt": "2025-09-21T19:26:31.869Z"
+}

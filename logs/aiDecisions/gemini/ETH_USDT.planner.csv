@@ -1,0 +1,2 @@
+ts,event,symbol,timeframe,side,entry,stop,tp,confidence,status,reason,raw
+"2025-09-18T21:02:11.103Z","proposal","ETH/USDT","5m","long",4599.552,4597.25,4607.84,0.5800000000000001,"open","LONG: rr=3.60 anchor=ema9@4599.551677","{""id"":""u5dnlp8"",""side"":""long"",""entry"":4599.55167686055,""stop"":4597.249745323039,""tp"":4607.84,""confidence"":0.5800000000000001,""reason"":""LONG: anchor=ema9@4599.551677, liqBelow{dAtr:0.82,dens:high}, rr=3.60, atrPct=0.35, -trend,trapped:none,session:середина"",""status"":""open"",""basisTf"":""5m""}"

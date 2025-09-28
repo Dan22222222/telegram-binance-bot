@@ -1,0 +1,15 @@
+ts,timeframe,event,side,entry,stop,tp,confidence,reason,notes,proposalId
+2025-09-18T21:01:52.754Z,1m,propose_none,,,,,,price=4602.7400;atr=1.9146;adx=29.43,noCleanSetup,
+2025-09-18T21:02:01.937Z,3m,propose_none,,,,,,price=4602.7200;atr=4.6170;adx=20.09,noCleanSetup,
+2025-09-18T21:02:11.103Z,5m,propose,long,4599.5517,4597.2497,4607.8400,0.58,"LONG: anchor=ema9@4599.551677, liqBelow{dAtr:0.82,dens:high}, rr=3.60, atrPct=0.35, -trend,trapped:none,session:середина",,u5dnlp8
+2025-09-18T21:02:20.110Z,15m,propose_none,,,,,,price=4600.5500;atr=12.9146;adx=12.53,lowADX,
+2025-09-18T21:02:29.055Z,30m,propose_none,,,,,,price=4600.5200;atr=20.0083;adx=18.16,lowADX,
+2025-09-18T21:02:53.129Z,1h,propose_none,,,,,,price=4600.4400;atr=31.0072;adx=15.69,lowADX,
+2025-09-18T21:03:02.224Z,4h,propose_none,,,,,,price=4601.1900;atr=63.5661;adx=15.80,lowADX,
+2025-09-21T19:09:58.966Z,1m,propose_none,,,,,,price=4476.0700;atr=2.4748;adx=34.84,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:10:06.643Z,3m,propose_none,,,,,,price=4475.9000;atr=4.1432;adx=32.40,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:10:14.191Z,5m,propose_none,,,,,,price=4476.9500;atr=5.2932;adx=26.91,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:10:21.735Z,15m,propose_none,,,,,,price=4477.3200;atr=10.1780;adx=17.92,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:10:29.226Z,30m,propose_none,,,,,,price=4477.4800;atr=13.6277;adx=17.82,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:10:36.689Z,1h,propose_none,,,,,,price=4477.9600;atr=17.4074;adx=19.49,noCleanSetup | tpCount=0;trailing=0,
+2025-09-21T19:10:46.151Z,4h,propose_none,,,,,,price=4478.3400;atr=45.1900;adx=23.63,noCleanSetup | tpCount=0;trailing=0,
